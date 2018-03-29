@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		canJump = true;
+        canJump = true;
 		canMove = true;
 		vitesse = 30;
         GetComponent<TrailRenderer>().enabled = false;
